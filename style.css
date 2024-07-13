@@ -1,0 +1,199 @@
+*{
+   
+}
+
+body{ 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cairo,sans-serif ;
+}
+
+
+.cabecario{
+    display: grid;
+    grid-template-columns:390px 20px 150px 33px 250px 300px 50px 50px 50px  27px 20px 70px 50px 20px 60px;
+    height: 47px;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+}
+
+.email{
+    width: 10px;
+}
+
+.facebook{
+    width: 10px;
+}
+
+.twitter{
+    width: 15px;
+}
+
+.linkedin{
+    width: 15px;
+}
+
+.pinterest{
+    width: 15px;
+}
+
+.login{
+    width: 15px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1.3fr;
+    grid-template-rows:  80px 80px 431px 236px;
+    }
+
+
+
+.logo{
+    grid-column: 2;
+   display: flex;
+   align-items: center;
+}
+
+.nav{
+    grid-column: 3/6;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 300px 50px 90px 100px;
+    align-items: center;
+   
+
+
+}
+
+
+.menu{
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: #7fad39;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.departamento{
+    line-height: 18px;
+    list-style: none;
+    text-align: left;
+    position: absolute;
+    opacity: 0;
+    font-weight: bold;
+}
+.food{
+    margin: 20px;
+    color: #1c1c1c;
+    font-weight: normal;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.menu:hover .departamento{
+    opacity: 1;
+    top: 40px;
+}
+.busca{
+
+    display: grid;
+    grid-template-columns: 100px 585px 20px;
+    grid-column: 3/6;
+    grid-row: 2;
+    justify-items: right;
+}
+
+#banner{
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg);
+    grid-row: 3/4;
+    grid-column: 3/6;
+    background-size: cover;
+    height: 431px;
+    display: flex;
+    padding-left: 75px;
+    flex-direction: column;
+
+
+}
+#banner button{
+    color: white;
+    background-color: #7fad39;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 28px 10px;
+    border: 0;
+}
+.button{
+    width: 30%;
+}
+#banner span{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+    
+}
+#banner h2{
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#banner p{
+    color: grey;
+}
+
+
+.freshfruit {
+    grid-column: 2;
+    background-image: url(cat-1.jpg.webp);
+    border: 10px solid white;
+    
+}
+.driedfruit{
+    grid-column: 3;
+    background-image: url(cat-2.jpg.webp);
+    border: 10px solid white;
+}
+.vegetables{
+    grid-column: 4;
+    background-image: url(cat-3.jpg.webp);
+    border: 10px solid white;
+}
+.drinkfruit{
+    grid-column: 5;
+    background-image: url(cat-4.jpg.webp);
+    border: 10px solid white;
+}
+.coracao{
+    height: 20px;
+    width: 20px;
+}
+.sacola{
+    width: 20px;
+    height: 20px;
+}
+.item{}
+
+.telefone{
+    height: 20px;
+    width: 20px;
+    text-align: right;
+}
+.idioma{
+    width: 70px;
+}
+.nav2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 60px 90px 90px 90px 90px;}
+
+.FeaturedProduct{
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+}
